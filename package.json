@@ -7,7 +7,7 @@
           "https://github.com/jprichardson/node-path-extra"
      ]
      , "repository"    : { "type" : "git"
-                         , "url"  : "https://github.com/jprichardson/node-path-exra"
+                         , "url"  : "https://github.com/jprichardson/node-path-extra"
                          }
      , "keywords"      : ["fs","file","file system", "path"]
      , "author"        : "JP Richardson <jprichardson@gmail.com>"
