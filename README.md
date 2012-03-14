@@ -1,44 +1,35 @@
 Node.js: path-extra
--------------------
+===================
 
-This module simply patches the Node.js 'path' object with extra methods.
+This module simply modifies the Node.js 'path' object with extra methods.
 
 Installation
-~~~~~~~~~~~~
+------------
 
-----
-npm install path-extra
-----
+    $ npm install --production path-extra
 
-Make sure that you run the test script to verify that it works on your system.
-----
-#Mac OS X or Linux Users:
-TEST_path-extra
-
-#Windows Users:
-coffee TEST_path-extra
-----
 
 Usage
-~~~~~
+-----
 
-----
-path = require('path-extra')
-----
+```javascript
+var path = require('path-extra');
+```
 
 You can still use all of the vanilla Node.js path methods. At this time, there is only one extra method.
 
 Methods:
-----
+
+```javascript
 path.tempdir() //returns a temporary directory that is operating system specific.
-----
+```
 
 License
-~~~~~~~
+-------
 
 (The MIT License)
 
-Copyright (c) 2011 JP Richardson
+Copyright (c) 2011-2012 JP Richardson
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files 
 (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify,
