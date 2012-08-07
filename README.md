@@ -1,12 +1,15 @@
 Node.js: path-extra
 ===================
 
-This module simply modifies the Node.js 'path' object with extra methods.
+This module simply modifies the Node.js 'path' object with extra methods. It is a drop in replacement for the `path` module.
+
+
 
 Installation
 ------------
 
-    $ npm install --production path-extra
+    $ npm install path-extra
+
 
 
 Usage
@@ -16,13 +19,16 @@ Usage
 var path = require('path-extra');
 ```
 
-You can still use all of the vanilla Node.js path methods. At this time, there is only one extra method.
+You can still use all of the vanilla Node.js path methods. 
 
 Methods:
 
 ```javascript
 path.tempdir() //returns a temporary directory that is operating system specific.
+path.homedir() //return the user's home directory
 ```
+
+
 
 License
 -------
