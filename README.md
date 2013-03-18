@@ -26,6 +26,7 @@ Methods:
 ```javascript
 path.tempdir() //returns a temporary directory that is operating system specific.
 path.homedir() //return the user's home directory
+path.datadir()
 ```
 
 

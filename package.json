@@ -1,6 +1,6 @@
 {
   "name": "path-extra",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "path-extra contains methods that aren't included in the vanilla Node.js path package.",
   "homepage": [ "https://github.com/jprichardson/node-path-extra"],
   "repository": { 
@@ -14,7 +14,7 @@
     "url": "http://github.com/jprichardson/node-path-extra/raw/master/LICENSE"
   }], 
   "devDependencies": { 
-    "mocha": "1.3.x"
+    "mocha": "*"
   }, 
   "main": "./lib/path.js"
 }
