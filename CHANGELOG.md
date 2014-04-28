@@ -1,3 +1,7 @@
+0.2.0 / 2014-04-28
+------------------
+* added sunos support #5
+
 0.1.1 / 2013-05-14
 ------------------
 * Windows XP support for datadir
