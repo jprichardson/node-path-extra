@@ -1,3 +1,7 @@
+0.2.1 / 2014-6-23
+------------------
+* fixed npm warning about `homepage` field #6
+
 0.2.0 / 2014-04-28
 ------------------
 * added sunos support #5
