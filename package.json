@@ -2,19 +2,19 @@
   "name": "path-extra",
   "version": "0.2.0",
   "description": "path-extra contains methods that aren't included in the vanilla Node.js path package.",
-  "homepage": [ "https://github.com/jprichardson/node-path-extra"],
-  "repository": { 
+  "homepage": "https://github.com/jprichardson/node-path-extra",
+  "repository": {
     "type": "git",
     "url" : "https://github.com/jprichardson/node-path-extra"
-  }, 
+  },
   "keywords": ["fs","file","file system", "path"],
   "author": "JP Richardson <jprichardson@gmail.com>",
-  "licenses": [{ 
+  "licenses": [{
     "type": "MIT",
     "url": "http://github.com/jprichardson/node-path-extra/raw/master/LICENSE"
-  }], 
-  "devDependencies": { 
+  }],
+  "devDependencies": {
     "mocha": "*"
-  }, 
+  },
   "main": "./lib/path.js"
 }
