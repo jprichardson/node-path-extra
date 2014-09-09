@@ -1,4 +1,8 @@
-0.2.1 / 2014-6-23
+0.3.0 / 2014-09-08
+------------------
+- add freebsd support
+
+0.2.1 / 2014-06-23
 ------------------
 * fixed npm warning about `homepage` field #6
 
