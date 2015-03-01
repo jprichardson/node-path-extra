@@ -5,16 +5,27 @@
   "homepage": "https://github.com/jprichardson/node-path-extra",
   "repository": {
     "type": "git",
-    "url" : "https://github.com/jprichardson/node-path-extra"
+    "url": "https://github.com/jprichardson/node-path-extra"
   },
-  "keywords": ["fs","file","file system", "path"],
+  "keywords": [
+    "fs",
+    "file",
+    "file system",
+    "path"
+  ],
   "author": "JP Richardson <jprichardson@gmail.com>",
-  "licenses": [{
-    "type": "MIT",
-    "url": "http://github.com/jprichardson/node-path-extra/raw/master/LICENSE"
-  }],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/jprichardson/node-path-extra/raw/master/LICENSE"
+    }
+  ],
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "*",
+    "standard": "^2.10.0"
   },
-  "main": "./lib/path.js"
+  "main": "./lib/path.js",
+  "scripts": {
+    "test": "standard && mocha"
+  }
 }

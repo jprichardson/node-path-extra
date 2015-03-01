@@ -1,34 +1,31 @@
 var path = require('../lib/path')
-  , fs = require('fs-extra')
-  , assert = require('assert')
+var fs = require('fs')
+var assert = require('assert')
 
+/* global describe, it */
 
-describe('path', function(){
-     describe('+ tempdir()', function() {
-        it('should return a temporary directory', function() {
-            var tmpDir = path.tempdir();
-            assert(tmpDir);
-              
-            var testFile = "TEST-path-ext-#{Date.now()}";
-            testFile = path.join(tmpDir, testFile);
+describe('path', function () {
+  describe('+ tempdir()', function () {
+    it('should return a temporary directory', function () {
+      var tmpDir = path.tempdir()
+      assert(tmpDir)
 
-            var testString = 'SOME STRING';
+      var testFile = 'TEST-path-ext-#{Date.now()}'
+      testFile = path.join(tmpDir, testFile)
 
-            fs.writeFileSync(testFile, testString);
-            var retString = fs.readFileSync(testFile).toString();
+      var testString = 'SOME STRING'
 
-            assert(retString === testString);
-        });
-     });
+      fs.writeFileSync(testFile, testString)
+      var retString = fs.readFileSync(testFile).toString()
 
-    describe('+ homedir()', function() {
-        it('should return the users homde directory', function() {
-            var homeDir = path.homedir();
-            assert(homeDir);
-        });
-     });
-});
- 
-    
+      assert(retString === testString)
+    })
+  })
 
-      
+  describe('+ homedir()', function () {
+    it('should return the users homde directory', function () {
+      var homeDir = path.homedir()
+      assert(homeDir)
+    })
+  })
+})
