@@ -28,4 +28,10 @@ describe('path', function () {
       assert(homeDir)
     })
   })
+
+  describe('+ path.sep', function () {
+    it('should set path separator', function () {
+      assert(path.sep)
+    })
+  })
 })
