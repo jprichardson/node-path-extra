@@ -23,9 +23,16 @@ describe('path', function () {
   })
 
   describe('+ homedir()', function () {
-    it('should return the users homde directory', function () {
+    it('should return the users home directory', function () {
       var homeDir = path.homedir()
       assert(homeDir)
+    })
+  })
+
+  describe('+ datadir()', function () {
+    it('should return the users data directory', function () {
+      var dir = path.datadir()
+      assert(dir)
     })
   })
 
