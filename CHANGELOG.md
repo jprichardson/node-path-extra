@@ -1,3 +1,8 @@
+1.0.0 / 2015-02-28
+------------------
+- added `sep` support. See #10
+- use `standard` styling
+
 0.3.0 / 2014-09-08
 ------------------
 - add freebsd support
