@@ -1,3 +1,7 @@
+1.0.1 / 2015-03-01
+------------------
+- bugfix: Windows `datadir()` was incorrect for default, this is breaking, but is a bugfix
+
 1.0.0 / 2015-02-28
 ------------------
 - added `sep` support. See #10
