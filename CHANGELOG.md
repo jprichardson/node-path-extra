@@ -1,3 +1,7 @@
+1.0.2 / 2015-03-02
+------------------
+- bugfix `path.delimiter` / all properties added
+
 1.0.1 / 2015-03-01
 ------------------
 - bugfix: Windows `datadir()` was incorrect for default, this is breaking, but is a bugfix
