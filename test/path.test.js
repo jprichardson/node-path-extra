@@ -41,4 +41,10 @@ describe('path', function () {
       assert(path.sep)
     })
   })
+
+  describe('+ path.delimiter', function () {
+    it('should set path delimiter', function () {
+      assert(path.delimiter)
+    })
+  })
 })
