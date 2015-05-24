@@ -14,12 +14,7 @@
     "path"
   ],
   "author": "JP Richardson <jprichardson@gmail.com>",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://github.com/jprichardson/node-path-extra/raw/master/LICENSE"
-    }
-  ],
+  "license": "MIT",
   "devDependencies": {
     "mocha": "*",
     "standard": "^2.10.0"
