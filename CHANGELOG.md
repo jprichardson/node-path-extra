@@ -1,3 +1,7 @@
+1.0.3 / 2015-05-24
+------------------
+- license fix https://github.com/jprichardson/node-path-extra/pull/11
+
 1.0.2 / 2015-03-02
 ------------------
 - bugfix `path.delimiter` / all properties added
