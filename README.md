@@ -24,9 +24,9 @@ You can still use all of the vanilla Node.js path methods.
 Methods:
 
 ```javascript
-path.tempdir() //returns a temporary directory that is operating system specific.
-path.homedir() //return the user's home directory
-path.datadir()
+path.tempdir() // returns a temporary directory that is operating system specific
+path.homedir() // returns the user's home directory
+path.datadir(appname) // returns a directory to store data in for an app with the given name
 ```
 
 
