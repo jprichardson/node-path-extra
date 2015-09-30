@@ -10,7 +10,7 @@ describe('path', function () {
       var tmpDir = path.tempdir()
       assert(tmpDir)
 
-      var testFile = 'TEST-path-ext-#{Date.now()}'
+      var testFile = 'TEST-path-ext-' + Date.now()
       testFile = path.join(tmpDir, testFile)
 
       var testString = 'SOME STRING'
