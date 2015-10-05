@@ -1,3 +1,7 @@
+2.0.0 / 2015-10-05
+------------------
+- use env variables https://github.com/jprichardson/node-path-extra/pull/13
+
 1.0.3 / 2015-05-24
 ------------------
 - license fix https://github.com/jprichardson/node-path-extra/pull/11
