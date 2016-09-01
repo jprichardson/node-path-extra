@@ -22,5 +22,8 @@
   "main": "./lib/path.js",
   "scripts": {
     "test": "standard && mocha"
+  },
+  "dependencies": {
+    "replace-ext": "^1.0.0"
   }
 }
