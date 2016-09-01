@@ -43,6 +43,13 @@ describe('path', function () {
     })
   })
 
+  describe('+ normalizeTrim()', function () {
+    it('should normalize the path and trim a trailing slash', function () {
+      assert.equal(path.normalizeTrim('/foo/bar//baz/asdf/quux/../')
+      , '/foo/bar/baz/asdf')
+    })
+  })
+
   describe('+ path.sep', function () {
     it('should set path separator', function () {
       assert(path.sep)
