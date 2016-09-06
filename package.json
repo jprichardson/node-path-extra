@@ -24,6 +24,7 @@
     "test": "standard && mocha"
   },
   "dependencies": {
-    "replace-ext": "^1.0.0"
+    "replace-ext": "^1.0.0",
+    "escape-string-regexp": "^1.0.5"
   }
 }
