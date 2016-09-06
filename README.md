@@ -27,6 +27,10 @@ Methods:
 path.tempdir() // returns a temporary directory that is operating system specific
 path.homedir() // returns the user's home directory
 path.datadir(appname) // returns a directory to store data in for an app with the given name
+path.replaceExt(path, extension) // replaces the extension from path with extension and returns the updated path string.
+// Example:
+path.replaceExt('dir/file.md', '.html')
+// => 'dir/file.html'
 ```
 
 
@@ -37,7 +41,3 @@ License
 (The MIT License)
 
 Copyright (c) 2011-2015 JP Richardson
-
-
-
-

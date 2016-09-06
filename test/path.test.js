@@ -36,6 +36,13 @@ describe('path', function () {
     })
   })
 
+  describe('+ replaceExt()', function () {
+    it('should replace the extension', function () {
+      assert.equal(path.replaceExt('path/to/file.md', '.html')
+      , 'path/to/file.html')
+    })
+  })
+
   describe('+ path.sep', function () {
     it('should set path separator', function () {
       assert(path.sep)
