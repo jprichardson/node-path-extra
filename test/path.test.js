@@ -50,6 +50,21 @@ describe('path', function () {
     })
   })
 
+  describe('+ base()', function () {
+    it('should include extension when includeExt is true', function () {
+      assert.equal(path.base('/foo/bar/baz/asdf/quux.ext', true)
+      , 'quux.ext', true)
+    })
+    it('should not include extension when includeExt is false', function () {
+      assert.equal(path.base('/foo/bar/baz/asdf/quux.ext', false)
+      , 'quux')
+    })
+    it('should not include extension by default', function () {
+      assert.equal(path.base('/foo/bar/baz/asdf/quux.ext')
+      , 'quux')
+    })
+  })
+
   describe('+ path.sep', function () {
     it('should set path separator', function () {
       assert(path.sep)
