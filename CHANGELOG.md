@@ -1,3 +1,11 @@
+4.0.0 / 2016-09-14
+------------------
+### Breaking
+- dropped `homedir()`, `tempdir()`, and `datadir()`
+
+### Added
+- `replaceExt()`, `normalizeTrim()`, `base()`
+
 3.0.0 / 2015-11-05
 ------------------
 - fix linux config directory. Bumped major as it could have a breaking change for some modules. https://github.com/jprichardson/node-path-extra/pull/14
