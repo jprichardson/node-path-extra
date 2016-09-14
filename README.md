@@ -23,39 +23,6 @@ You can still use all of the vanilla Node.js path methods.
 
 ## Methods:
 
-### `tempdir()`
-
-Returns a temporary directory that is operating system specific.
-
-Example on Linux:
-
-```js
-path.tempdir()
-// => /tmp
-```
-
-### `homedir()`
-
-Returns the user's home directory
-
-Example on Linux:
-
-```js
-path.homedir()
-// => /home/username
-```
-
-### `datadir(appname)`
-
-Returns a directory to store data in for an app with the given name.
-
-Example on Linux:
-
-```js
-path.datadir('sampleapp')
-// => /home/ryan/.config/sampleapp
-```
-
 ### `replaceExt(filePath, extension)`
 
 Replaces the extension from path with extension and returns the updated path string.
@@ -100,6 +67,10 @@ path.base('path/to/file.md', false)
 path.base('path/to/file.md', true)
 // => file.md
 ```
+
+---
+
+`homedir()`, `tempdir()`, and `datadir()` have been removed in version 4.0.0. Please use the [ospath](https://github.com/jprichardson/ospath) module instead.
 
 License
 -------
