@@ -17,7 +17,7 @@
   "license": "MIT",
   "devDependencies": {
     "mocha": "*",
-    "standard": "^8.0.0"
+    "standard": "*"
   },
   "main": "./lib/path.js",
   "scripts": {
