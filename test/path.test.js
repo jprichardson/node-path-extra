@@ -33,6 +33,18 @@ describe('path', function () {
     })
   })
 
+  describe('+ removeExt()', function () {
+    it('should remove extensions', function () {
+      assert.equal(path.removeExt('index.html'), 'index')
+    })
+    it('should preserve directories', function () {
+      assert.equal(path.removeExt('subdir/index.html'), 'subdir/index')
+    })
+    it('should remove extensions when the extension is also in the filename', function () {
+      assert.equal(path.removeExt('foo.bar/foo.bar.bar'), 'foo.bar/foo.bar')
+    })
+  })
+
   describe('+ path.sep', function () {
     it('should set path separator', function () {
       assert(path.sep)

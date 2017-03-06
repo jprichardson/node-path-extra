@@ -68,6 +68,17 @@ path.base('path/to/file.md', true)
 // => file.md
 ```
 
+### `removeExt(filepath)`
+
+Remove a path's extension.
+
+Example:
+
+```js
+path.removeExt('some/dir/file.ext')
+// => some/dir/file
+```
+
 ---
 
 `homedir()`, `tempdir()`, and `datadir()` have been removed in version 4.0.0. Please use the [ospath](https://github.com/jprichardson/ospath) module instead.
