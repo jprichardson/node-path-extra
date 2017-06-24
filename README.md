@@ -79,6 +79,28 @@ path.removeExt('some/dir/file.ext')
 // => some/dir/file
 ```
 
+### `fileNameWithPostfix(filePath, postfix)`
+
+Append string to the end of the filename.
+
+Example:
+
+```js
+path.fileNameWithPostfix('path/to/file-name.ext', '-old')
+// => path/to/file-name-old.ext
+```
+
+### `fileNameWithPrefix(filePath, prefix)`
+
+Append string to the beginning of the filename.
+
+Example:
+
+```js
+path.fileNameWithPrefix('path/to/file-name.ext', 'new-')
+// => path/to/new-file-name.ext
+```
+
 ---
 
 `homedir()`, `tempdir()`, and `datadir()` have been removed in version 4.0.0. Please use the [ospath](https://github.com/jprichardson/ospath) module instead.

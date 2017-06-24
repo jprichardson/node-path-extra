@@ -56,4 +56,16 @@ describe('path', function () {
       assert(path.delimiter)
     })
   })
+
+  describe('+ path.fileNameWithPostfix', function () {
+    it('should append string to the end of the filename', function () {
+      assert.equal(path.fileNameWithPostfix('path/to/file-name.ext', '-old'), 'path/to/file-name-old.ext')
+    })
+  })
+
+  describe('+ path.fileNameWithPrefix', function () {
+    it('should append string at the beginning of the filename', function () {
+      assert.equal(path.fileNameWithPrefix('path/to/file-name.ext', 'new-'), 'path/to/new-file-name.ext')
+    })
+  })
 })
