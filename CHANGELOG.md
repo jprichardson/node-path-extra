@@ -1,3 +1,7 @@
+4.2.0 / 2017-06-24
+------------------
+- Added `fileNameWithPrefix()` & `fileNameWithPostfix()`
+
 4.1.0 / 2017-03-06
 ------------------
 - Added `removeExt()`
