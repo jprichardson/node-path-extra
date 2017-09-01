@@ -1,3 +1,8 @@
+4.2.1 / 2017-09-01
+------------------
+
+- Added argument type-checking for `fileNameWithPrefix()` & `fileNameWithPostfix()` to prevent unexpected behavior. [#28](https://github.com/jprichardson/node-path-extra/pull/28)
+
 4.2.0 / 2017-06-24
 ------------------
 - Added `fileNameWithPrefix()` & `fileNameWithPostfix()`
