@@ -1,3 +1,8 @@
+4.3.0 / 2019-09-23
+------------------
+
+- Add TypeScript typings ([#30](https://github.com/jprichardson/node-path-extra/pull/30))
+
 4.2.1 / 2017-09-01
 ------------------
 
