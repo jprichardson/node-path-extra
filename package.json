@@ -20,6 +20,7 @@
     "standard": "*"
   },
   "main": "./lib/path.js",
+  "typings": "./types/index.d.ts",
   "scripts": {
     "test": "standard && mocha"
   },
